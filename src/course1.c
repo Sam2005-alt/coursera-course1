@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nint8_t course1() {\n    int8_t status;\n    status = test_data1();\n    status += test_data2();\n    status += test_memmove1();\n    status += test_memmove2();\n    status += test_memmove3();\n    status += test_memcopy();\n    status += test_memset();\n    status += test_reverse();\n    return status;\n}
