@@ -1,0 +1,1 @@
+#ifndef DATA_H\n#define DATA_H\n\n#include <stdint.h>\n\nuint8_t my_itoa(int32_t data, uint8_t * ptr, uint32_t base);\nint32_t my_atoi(uint8_t * ptr, uint8_t digits, uint32_t base);\n\n#endif // DATA_H\n
